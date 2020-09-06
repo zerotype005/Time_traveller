@@ -1,0 +1,31 @@
+body{
+    background-color: gray;
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+}
+.box{
+    width: 100%;
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+    max-width: 600px;
+    position: relative;
+    margin: 50px auto 40px;
+}
+.year{
+    background:  gray;
+    position: relative;
+    padding-left: 10px;
+    padding-right: 10px;
+    z-index: 3;
+}
+.line{
+    height: 2px;
+    width: 100%;
+    top: -10px;
+    border-radius: 3px;
+    background: black;
+    position: relative;
+    
+
+}
