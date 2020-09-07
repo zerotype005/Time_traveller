@@ -6,3 +6,7 @@ body{
     text-align: center;
     padding: 10px;
 }
+.navsel{
+    text-decoration: underline;
+    text-decoration-color: red;
+}
