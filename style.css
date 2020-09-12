@@ -4,9 +4,30 @@ body{
 }
 .head1{
     text-align: center;
-    padding: 10px;
+    color: white;
+    
+}
+.phead{
+    color: white;
+    text-align: center;
 }
 .navsel{
     text-decoration: underline;
     text-decoration-color: red;
+}
+.f1{
+    align-items: center;
+}
+.btn-dark{
+    background-color: red;
+}
+.btn-dark:hover{
+    background-color: white;
+}
+
+.btn-text1{
+    color: white;
+}
+.btn-dark:hover:hover{
+    color: black;
 }
