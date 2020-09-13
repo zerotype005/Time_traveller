@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
     <link rel="icon" href="image/icon.png" type="image/png" sizes="50x50">
+    <link href="demo.css" rel="stylesheet">
+    <link href="dist/svgMap.css" rel="stylesheet">
+    <script src="dist/svgMap.js"></script>
     <title>Time Traveller</title>
   </head>
   <body>
@@ -38,7 +41,7 @@
         <div class="col">
           <h1 class="head1">Let's Travel !</h1>
           <p class="phead">What do you want to know in history</p><br><br><br>
-          <form>
+         
             <div class="form-row align-items-center">
               
               <div class="col-auto">
@@ -47,7 +50,7 @@
                   <div class="input-group-prepend">
                     <div class="input-group-text">Year</div>
                   </div>
-                  <input type="number" class="form-control" id="inlineFormInputGroup" placeholder="Enter your year!">
+                  <input name="inyear" type="number" class="form-control" id="year1" placeholder="Enter your year!">
                 </div>
               </div>
             </div>
@@ -55,20 +58,53 @@
             <div class="row">
               <div class="col-auto">
                 <div class="col-auto"></div>
-                <button type="submit" class="btn btn-dark mb-2"><a class="btn-text1" href="travel.html"><b>Travel !</b></a></button>
+                <button type="submit" class="btn btn-dark mb-2" onclick="functiony()"><a class="btn-text1"><b>Travel !</b></a></button>
               </div>
               </div>
             </div>
-          </form>
+         
         </div>
         <div class="col">
          <img src="image/righthead.png" class="righthead">
         </div>
+
+        <div class="w-100"></div>
+        
+          <div class="col">
+
+            
+
         </div>
       </div>
       </div>
+      <div class="container">
+      <div class="row">
+        <div class="col-sm">
+          <div class="demo-container">
+              <div id="svgMapPopulation"></div>
+              <script src="data/population.js"></script>
+              <script>
+                new svgMap({
+                  targetElementID: 'svgMapPopulation',
+                  data: svgMapDataPopulation,
+                  flagType: 'emoji'
+                });
+              </script>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      
 
-
+<script>
+  
+  function functiony() {   
+    var year = document.getElementById("year1").value;
+    alert(year);
+  }
+  
+</script>
     
 
 
