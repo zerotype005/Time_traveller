@@ -53,3 +53,6 @@ body{
 .bg-dark {
     background-color: #808080!important;
 }
+h3#yearline{
+    text-align: center;
+}

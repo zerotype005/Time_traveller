@@ -90,20 +90,42 @@
                   flagType: 'emoji'
                 });
               </script>
+          <div class="row">
+            <div class="col">
+              <hr>
+            </div>
+            <div class="col">
+              <h3 id = "yearline">Year</h3>
+              
+            </div>
+            <div class="col">
+              <hr>
+            </div>
+          </div>
             </div>
           </div>
         </div>
       </div>
       </div>
+      <img id="test">
       
 
 <script>
   
+  var jsonda = '{"jame" : "read","photo" : "https://cdn.discordapp.com/attachments/426628490012655628/755099438057390263/119004557_2829120220746845_4951868040693712365_o.png"}';
+  var myjson = JSON.parse(jsonda);
   function functiony() {   
     var year = document.getElementById("year1").value;
     alert("ปีที่"+year);
+    document.getElementById("yearline").innerHTML = "Year "+ year;
+
+    document.getElementById("test").src = myjson.photo; 
+    console.log(myjson)
+  
   }
   
+  
+
 </script>
     
 
