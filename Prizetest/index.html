@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <link rel="icon" href="image/icon.png" type="image/png" sizes="50x50">
+    <link href="demo.css" rel="stylesheet">
+    <link href="dist/svgMap.css" rel="stylesheet">
+    <script src="dist/svgMap.js"></script>
+    <title>Time Traveller</title>
+  </head>
+  <body>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#"><img src="image/logo nav.png" class="d-inline-block align-top" style="width: 30%;"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"><u class="navsel">Home</u> <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Timeline</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <img src="image/background.png" class="imgback">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h1 class="head1">Let's Travel !</h1>
+          <p class="phead">What do you want to know in history</p><br><br><br>
+         
+            <div class="form-row align-items-center">
+              
+              <div class="col-auto">
+                <label class="sr-only" for="inlineFormInputGroup"></label>
+                <div class="input-group mb-2">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text">Year</div>
+                  </div>
+                  <input name="inyear" type="number" class="form-control" id="year1" placeholder="Enter your year!">
+                </div>
+              </div>
+            </div>
+            <div class="d-flex">
+            <div class="row">
+              <div class="col-auto">
+                <div class="col-auto"></div>
+                <button type="submit" class="btn btn-dark mb-2" onclick="functiony()"><a class="btn-text1"><b>Travel !</b></a></button>
+              </div>
+              </div>
+            </div>
+         
+        </div>
+        <div class="col">
+         <img src="image/righthead.png" class="righthead">
+        </div>
+
+        <div class="w-100"></div>
+        
+          <div class="col">
+
+            
+
+        </div>
+      </div>
+      </div>
+      <div class="container">
+      <div class="row">
+        <div class="col-sm">
+          <div class="demo-container">
+              <div id="svgMapPopulation"></div>
+              <script src="data/population.js"></script>
+              <script>
+                new svgMap({
+                  targetElementID: 'svgMapPopulation',
+                  data: svgMapDataPopulation,
+                  flagType: 'emoji'
+                });
+              </script>
+          <div class="row">
+            <div class="col">
+              <hr>
+            </div>
+            <div class="col">
+              <h3 id = "yearline">Year</h3>
+              
+            </div>
+            <div class="col">
+              <hr>
+            </div>
+          </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      <img id="test">
+      
+
+<script>
+  
+  var jsonda = '{"name" : "read","photo" : "image/earth.png"}';
+  var myjson = JSON.parse(jsonda);
+  function functiony() {   
+    var year = document.getElementById("year1").value;
+    alert("ปีที่"+year);
+    document.getElementById("yearline").innerHTML = "Year "+ year;
+
+    document.getElementById("test").src = myjson.photo; 
+    console.log(myjson)
+  
+  }
+  
+  
+
+</script>
+    
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+      
+  </body>
+</html>

@@ -1,0 +1,58 @@
+body{
+    font-family: 'Varela Round', sans-serif;
+
+}
+@media screen and (max-width: 1100px) {
+    .imgback{
+        position: absolute;
+        width: 100%;
+        height: 90%;
+    }
+  }
+.head1{
+    color: white;
+    
+}
+.phead{
+    color: white;
+    
+}
+.navsel{
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+.f1{
+    align-items: center;
+}
+.btn-dark{
+    background-color: red;
+}
+.btn-dark:hover{
+    background-color: white;
+}
+
+.btn-text1{
+    color: white;
+}
+.btn-dark:hover:hover{
+    color: black;
+}
+.righthead{
+    width: 100%;
+}
+.col{
+    padding-top: 15%;
+}
+.imgback{
+    position: absolute;
+    width: 100%;
+}
+.d-flex{
+    padding-left: 20%;
+}
+.bg-dark {
+    background-color: #808080!important;
+}
+h3#yearline{
+    text-align: center;
+}
