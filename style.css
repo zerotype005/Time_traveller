@@ -56,3 +56,7 @@ body{
 h3#yearline{
     text-align: center;
 }
+.imgContent{
+    padding: 16em;
+    width: 100%;
+}
