@@ -43,3 +43,12 @@ body{
     
 
 }
+
+#headtimeline{
+    background-color: aliceblue;
+    height: 1000px;
+}
+
+h1{
+    font-size: 60px;
+}
