@@ -43,34 +43,3 @@ body{
     
 
 }
-
-.d-flex{
-    padding-left: 20%;
-}
-
-.righthead{
-    width: 100%;
-}
-
-.imgContent{
-    padding: 16em;
-    width: 100%;
-}
-
-.col{
-    padding-top: 15%;
-    text-align: center;
-}
-
-.f1{
-    align-items: center;
-}
-
-.imgback{
-    position: absolute;
-    width: 100%;
-}
-
-h3#yearline{
-    text-align: center;
-}
