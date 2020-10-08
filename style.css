@@ -11,7 +11,7 @@ body{
     font-family: 'Varela Round', sans-serif;
     margin: 0;
     height: 100vh;
-    background-color:#303030;
+    background-color:black;
 }
 header{
     position: relative;
@@ -39,7 +39,7 @@ header{
 .logohead{
     position: absolute;
     top: 40%;
-    margin-left: 30%;
+    margin-left: 45%;
 }
 section{
     width: 100%;
