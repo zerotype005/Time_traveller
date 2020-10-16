@@ -72,7 +72,14 @@ h2, h3{
 }
 
 .description {
-    padding: 0 16em 0 0;
     position: absolute;
     top: 25vh;
+}
+
+.description.left {
+    padding: 0 16em 0 0;
+}
+
+.description.right {
+    padding: 0 0 0 16em;
 }
