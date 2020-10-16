@@ -26,6 +26,7 @@ header{
 .container {
     padding: 2em;
     height: 100vh;
+    position: relative;
 }
 
 .sky, .ground, .man {
@@ -55,6 +56,23 @@ section img{
 p{
     color: white;
 }
-h3{
+h2, h3{
     color: white;
+}
+
+.para {
+    position: relative;
+    height: 100%;
+}
+
+.bg-paralax {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+}
+
+.description {
+    padding: 0 16em 0 0;
+    position: absolute;
+    top: 25vh;
 }
