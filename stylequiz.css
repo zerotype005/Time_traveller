@@ -1,6 +1,37 @@
 body{
     background-color: black;
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
 }
 .bg-light{
     background-color: transparent !important;
+}
+h2{
+    color: white;
+}
+section{
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 5em;
+}
+.item-form{
+    padding: 3rem;
+}
+.btn-block{
+    padding: 5px;
+}
+.btnform{
+    border-radius: 5px;
+    border: none;
+    height: 2rem;
+    width: 4rem;
+}
+.btnform:hover{
+    background-color: orange;
+}
+.textf1{
+    border-radius: 5px;
+    border: none;
+    height: 2rem;
 }
