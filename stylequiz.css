@@ -56,24 +56,28 @@ button{
 }
 .btngray{
     background-color: white;
+    transition: 1s;
 }
 .btngray:hover{
     background-color: gray;
 }
 .btnred{
     background-color: white;
+    transition: 1s;
 }
 .btnred:hover{
     background-color: red;
 }
 .btnyellow{
     background-color: white;
+    transition: 1s;
 }
 .btnyellow:hover{
     background-color: gold;
 }
 .btnblue{
     background-color: white;
+    transition: 1s;
 }
 .btnblue:hover{
     background-color:blue;
