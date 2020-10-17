@@ -32,13 +32,6 @@ section{
 .btn-block{
     padding: 5px;
 }
-.btnform{
-    border-radius: 5px;
-    border: none;
-    height: 2rem;
-    width: 4rem;
-    transition: 1s;
-}
 .btnform:hover{
     background-color: orange;
 }
@@ -54,9 +47,38 @@ section{
     display: none;
 
 }
-.btnwar{
-    border-radius: 5px;
+button{
+    margin: 3;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 10px;
     border: none;
+}
+.btngray{
+    background-color: white;
+}
+.btngray:hover{
+    background-color: gray;
+}
+.btnred{
+    background-color: white;
+}
+.btnred:hover{
+    background-color: red;
+}
+.btnyellow{
+    background-color: white;
+}
+.btnyellow:hover{
+    background-color: gold;
+}
+.btnblue{
+    background-color: white;
+}
+.btnblue:hover{
+    background-color:blue;
+}
+.btnwar{
     height: 2rem;
     width: 6rem;
     background-color: white;
