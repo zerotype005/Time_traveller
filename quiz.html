@@ -31,20 +31,69 @@
         </div>
       </nav>
 
-      <section>
-      <H2 class="animate__animated animate__bounce">เราขอทราบชื่อผู้เดินทาง</H2>
-
-      <div class="testbox">
-        <form action="/">
+      <section id="sec1">
+        <div class="block">
+      <H2 class="animate__animated animate__bounce" id="qus">เราขอทราบชื่อผู้เดินทาง</H2>
           <div class="item-form"> 
-              <input type="text" name="name" placeholder="Name" class="textf1">
-          
+              <input type="text" name="pname" placeholder="Name" class="textf1" id="textf">
           <div class="btn-block"></div>
-            <button type="submit" class="btnform">ต่อไป</button>
-          </div>
-        </form>
+            <button class="btnform" onclick="funcname()">ต่อไป</button>      
+        </div>
       </div>
       </section>
+
+      <section class="hide" id="sec2">
+        <div class="block">
+          <H2 class="animate__animated animate__bounce" id="qus2">Questions 2</H2>
+          <div class="item-form">
+          <button class="btnform"  id="btn1" onclick="funca1()">A1</button>      
+          <button class="btnform" onclick="funca2()">A2</button>      
+          <button class="btnform" onclick="funca3()">A3</button>      
+          <button class="btnform" onclick="funca4()">A4</button>
+        </div>      
+        </div>
+      </section>
+
+      <section class="hide" id="sec3">
+        <div class="block">
+          <H2 class="animate__animated animate__bounce" id="qus3">Questions 3</H2>
+          <div class="item-form">
+          <button class="btnform" onclick="funca5()">A1</button>      
+          <button class="btnform" onclick="funca6()">A2</button>      
+          <button class="btnform" onclick="funca7()">A3</button>      
+          <button class="btnform" onclick="funca8()">A4</button>
+        </div>      
+        </div>
+      </section>
+
+      <section class="hide" id="sec4">
+        <div class="block">
+          <H2 class="animate__animated animate__bounce" id="qus4">Questions 4</H2>
+          <div class="item-form">
+          <button class="btnform" onclick="funca9()">A1</button>      
+          <button class="btnform" onclick="funca10()">A2</button>      
+          <button class="btnform" onclick="funca11()">A3</button>      
+          <button class="btnform" onclick="funca12()">A4</button>
+        </div>      
+        </div>
+      </section>
+
+      <section class="hide" id="sec5">
+        <div class="block">
+          <H2 class="animate__animated animate__bounce" id="qus5">Questions 5</H2>
+          <div class="item-form">
+            <button class="btnform" onclick="funca13()">A1</button>      
+            <button class="btnform" onclick="funca14()">A2</button>      
+            <button class="btnform" onclick="funca15()">A3</button>      
+            <button class="btnform" onclick="funca16()">A4</button>
+        </div>      
+        </div>
+      </section>
+
+
+
+
+
     
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
@@ -61,6 +110,101 @@
 
 	window.requestAnimationFrame(updateLax)
 }
+
+
+const sec1 = document.getElementById("sec1")
+const sec2 = document.getElementById("sec2")
+const sec3 = document.getElementById("sec3")
+const sec4 = document.getElementById("sec4")
+const sec5 = document.getElementById("sec5")
+
+function funcname(){
+  var Name = document.getElementById("textf").value;
+  console.log(Name);
+  sec1.classList.add("hide")
+  sec2.classList.remove("hide")
+}
+
+// <Question1------------------------->
+function funca1(){
+  sec2.classList.add("hide")
+  sec3.classList.remove("hide")
+}
+
+function funca2(){
+  sec2.classList.add("hide")
+  sec3.classList.remove("hide")
+}
+
+function funca3(){
+  sec2.classList.add("hide")
+  sec3.classList.remove("hide")
+}
+
+function funca4(){
+  sec2.classList.add("hide")
+  sec3.classList.remove("hide")
+}
+
+// <Question2------------------------->
+  function funca5(){
+  sec3.classList.add("hide")
+  sec4.classList.remove("hide")
+}
+
+function funca6(){
+  sec3.classList.add("hide")
+  sec4.classList.remove("hide")
+}
+
+function funca7(){
+  sec3.classList.add("hide")
+  sec4.classList.remove("hide")
+}
+
+function funca8(){
+  sec3.classList.add("hide")
+  sec4.classList.remove("hide")
+}
+
+// <Question3------------------------->
+  function funca9(){
+  sec4.classList.add("hide")
+  sec5.classList.remove("hide")
+}
+
+function funca10(){
+  sec4.classList.add("hide")
+  sec5.classList.remove("hide")
+}
+
+function funca11(){
+  sec4.classList.add("hide")
+  sec5.classList.remove("hide")
+}
+
+function funca12(){
+  sec4.classList.add("hide")
+  sec5.classList.remove("hide")
+}
+
+// <Question5------------------------->
+  function funca13(){
+
+}
+
+function funca14(){
+  
+}
+
+function funca15(){
+ 
+}
+
+function funca16(){
+  
+}
+
 </script>
 </body>
 </html>
