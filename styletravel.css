@@ -8,7 +8,7 @@ body{
     font-family: 'Varela Round', sans-serif;
     margin: 0;
     height: 100vh;
-    background-color:black;
+    background-color: gray;
 
 }
 @media screen and (max-width: 1100px) {
@@ -22,10 +22,7 @@ body{
    text-decoration: underline;
    text-decoration-color: red;
 }
-body{
-    background-color: gray;
-    font-family: 'Varela Round', sans-serif;
-}
+
 .box{
     width: 100%;
     position: relative;
@@ -69,19 +66,6 @@ h1{
     font-size: 60px;
 }
 
-#mountain{
-    position: absolute;
-    z-index: -1;
-    width: 100%;
-    top: 0;
-}
-
-#person{
-    position: absolute;
-    z-index: -1;
-    width: 100%;
-    top: 0;
-}
 
 .col{
     margin: 50px;
