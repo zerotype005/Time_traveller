@@ -12,6 +12,7 @@ body{
     margin: 0;
     height: 100vh;
     background-color:#303030;
+
 }
 header{
     position: relative;
@@ -82,4 +83,20 @@ h2, h3{
 
 .description.right {
     padding: 0 0 0 16em;
+}
+#bg1{
+    background-image: url('img-war/1-move.png');
+    background-repeat: no-repeat;
+}
+#bg2{
+    background-image: url('img-war/yoyo.png');
+    background-repeat: no-repeat;
+}
+#bg3{
+    background-image: url('img-war/war-cu.png');
+    background-repeat: no-repeat;
+}
+#bg4{
+    background-image: url('img-war/chiness.png');
+    background-repeat: no-repeat;
 }
