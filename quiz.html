@@ -90,6 +90,46 @@
         </div>
       </section>
 
+      <section class="hide" id="sec6">
+        <div class="block">
+          <H2>หมวดหมู่สำหรับการย้อนเวลาของคุณ</H2>
+          <h1>สงคราม</h1>
+          <div class="item-form">
+          <button class="btnwar" onclick=" ">ย้อนเวลา !</button>
+        </div>
+        </div>
+      </section>
+
+      <section class="hide" id="sec7">
+        <div class="block">
+          <H2>หมวดหมู่สำหรับการย้อนเวลาของคุณ</H2>
+          <h1>การปกครอง</h1>
+          <div class="item-form">
+          <button class="btnwar" onclick=" ">ย้อนเวลา !</button>
+        </div>
+        </div>
+      </section>
+
+      <section class="hide" id="sec8">
+        <div class="block">
+          <H2>หมวดหมู่สำหรับการย้อนเวลาของคุณ</H2>
+          <h1>ศาสนา</h1>
+          <div class="item-form">
+          <button class="btnwar" onclick=" ">ย้อนเวลา !</button>
+        </div>
+        </div>
+      </section>
+
+      <section class="hide" id="sec9">
+        <div class="block">
+          <H2>หมวดหมู่สำหรับการย้อนเวลาของคุณ</H2>
+          <h1>นวัตกรรม</h1>
+          <div class="item-form">
+          <button class="btnwar" onclick=" ">ย้อนเวลา !</button>
+        </div>
+        </div>
+      </section>
+
 
 
 
@@ -117,6 +157,12 @@ const sec2 = document.getElementById("sec2");
 const sec3 = document.getElementById("sec3");
 const sec4 = document.getElementById("sec4");
 const sec5 = document.getElementById("sec5");
+
+const sec6 = document.getElementById("sec6");
+const sec7 = document.getElementById("sec7");
+const sec8 = document.getElementById("sec8");
+const sec9 = document.getElementById("sec9");
+
 var a1 = 0;
 var a2 = 0;
 var a3 = 0;
@@ -220,22 +266,94 @@ function funca12(){
 function funca13(){
   a1 += 1;
   console.log(a1);
+  if(a1 > a2 && a1 > a3 && a1 > a4){
+    sec5.classList.add("hide")
+    sec6.classList.remove("hide")
+  }
+  else if(a2 > a1 && a2 > a3 && a2 > a4){
+    sec5.classList.add("hide")
+    sec7.classList.remove("hide")
+  }
+  else if(a3 > a1 && a3 > a2 && a3 > a4){
+    sec5.classList.add("hide")
+    sec8.classList.remove("hide")
+  }
+  else if(a4 > a1 && a4 > a2 && a4 > a3){
+    sec5.classList.add("hide")
+    sec9.classList.remove("hide")
+  }else{
+    sec5.classList.add("hide")
+  }
 
 }
 
 function funca14(){
   a2 += 1;
   console.log(a2);
+  if(a1 > a2 && a1 > a3 && a1 > a4){
+    sec5.classList.add("hide")
+    sec6.classList.remove("hide")
+  }
+  else if(a2 > a1 && a2 > a3 && a2 > a4){
+    sec5.classList.add("hide")
+    sec7.classList.remove("hide")
+  }
+  else if(a3 > a1 && a3 > a2 && a3 > a4){
+    sec5.classList.add("hide")
+    sec8.classList.remove("hide")
+  }
+  else if(a4 > a1 && a4 > a2 && a4 > a3){
+    sec5.classList.add("hide")
+    sec9.classList.remove("hide")
+  }else{
+    sec5.classList.add("hide")
+  }
 }
 
 function funca15(){
   a3 += 1;
   console.log(a3);
+  if(a1 > a2 && a1 > a3 && a1 > a4){
+    sec5.classList.add("hide")
+    sec6.classList.remove("hide")
+  }
+  else if(a2 > a1 && a2 > a3 && a2 > a4){
+    sec5.classList.add("hide")
+    sec7.classList.remove("hide")
+  }
+  else if(a3 > a1 && a3 > a2 && a3 > a4){
+    sec5.classList.add("hide")
+    sec8.classList.remove("hide")
+  }
+  else if(a4 > a1 && a4 > a2 && a4 > a3){
+    sec5.classList.add("hide")
+    sec9.classList.remove("hide")
+  }else{
+    sec5.classList.add("hide")
+  }
 }
 
 function funca16(){
   a4 += 1;
   console.log(a4);
+  if(a1 > a2 && a1 > a3 && a1 > a4){
+    sec5.classList.add("hide")
+    sec6.classList.remove("hide")
+  }
+  else if(a2 > a1 && a2 > a3 && a2 > a4){
+    sec5.classList.add("hide")
+    sec7.classList.remove("hide")
+  }
+  else if(a3 > a1 && a3 > a2 && a3 > a4){
+    sec5.classList.add("hide")
+    sec8.classList.remove("hide")
+  }
+  else if(a4 > a1 && a4 > a2 && a4 > a3){
+    sec5.classList.add("hide")
+    sec9.classList.remove("hide")
+  }else{
+    sec5.classList.add("hide")
+  }
   
 }
 

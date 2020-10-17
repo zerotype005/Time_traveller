@@ -7,9 +7,13 @@ body{
 .bg-light{
     background-color: transparent !important;
 }
-h2{
+H2{
     color: white;
 }
+h1{
+    color: gray;
+}
+
 section{
     display: grid;
     grid-template: 1;
@@ -33,6 +37,7 @@ section{
     border: none;
     height: 2rem;
     width: 4rem;
+    transition: 1s;
 }
 .btnform:hover{
     background-color: orange;
@@ -47,4 +52,12 @@ section{
 }
 .hide{
     display: none;
+
+}
+.btnwar{
+    border-radius: 5px;
+    border: none;
+    height: 2rem;
+    width: 6rem;
+    background-color: white;
 }
