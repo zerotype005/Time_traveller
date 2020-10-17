@@ -44,12 +44,12 @@
 
       <section class="hide" id="sec2">
         <div class="block">
-          <H2 class="animate__animated animate__bounce" id="qus2">Questions 2</H2>
+          <H2 class="animate__animated animate__bounce" id="qus2">คุณชอบสีอะไร ?</H2>
           <div class="item-form">
-          <button class="btnform"  id="btn1" onclick="funca1()">A1</button>      
-          <button class="btnform" onclick="funca2()">A2</button>      
-          <button class="btnform" onclick="funca3()">A3</button>      
-          <button class="btnform" onclick="funca4()">A4</button>
+          <button class="btngray"  id="btn1" onclick="funca1()">สีเทา</button>      
+          <button class="btnred" onclick="funca2()">สีแดง</button>      
+          <button class="btnyellow" onclick="funca3()">สีเหลือง</button>      
+          <button class="btnblue" onclick="funca4()">สีนํ้าเงิน</button>
         </div>      
         </div>
       </section>
@@ -90,6 +90,46 @@
         </div>
       </section>
 
+      <section class="hide" id="sec6">
+        <div class="block">
+          <H2>หมวดหมู่สำหรับการย้อนเวลาของคุณ</H2>
+          <h1 style="color: grey;">สงคราม</h1>
+          <div class="item-form">
+          <button class="btnwar" onclick=" ">ย้อนเวลา !</button>
+        </div>
+        </div>
+      </section>
+
+      <section class="hide" id="sec7">
+        <div class="block">
+          <H2>หมวดหมู่สำหรับการย้อนเวลาของคุณ</H2>
+          <h1 style="color: red;">การปกครอง</h1>
+          <div class="item-form">
+          <button class="btnwar" onclick=" ">ย้อนเวลา !</button>
+        </div>
+        </div>
+      </section>
+
+      <section class="hide" id="sec8">
+        <div class="block">
+          <H2>หมวดหมู่สำหรับการย้อนเวลาของคุณ</H2>
+          <h1 style="color: gold;">ศาสนา</h1>
+          <div class="item-form">
+          <button class="btnwar" onclick=" ">ย้อนเวลา !</button>
+        </div>
+        </div>
+      </section>
+
+      <section class="hide" id="sec9">
+        <div class="block">
+          <H2>หมวดหมู่สำหรับการย้อนเวลาของคุณ</H2>
+          <h1 style="color: blue;">นวัตกรรม</h1>
+          <div class="item-form">
+          <button class="btnwar" onclick=" ">ย้อนเวลา !</button>
+        </div>
+        </div>
+      </section>
+
 
 
 
@@ -112,11 +152,21 @@
 }
 
 
-const sec1 = document.getElementById("sec1")
-const sec2 = document.getElementById("sec2")
-const sec3 = document.getElementById("sec3")
-const sec4 = document.getElementById("sec4")
-const sec5 = document.getElementById("sec5")
+const sec1 = document.getElementById("sec1");
+const sec2 = document.getElementById("sec2");
+const sec3 = document.getElementById("sec3");
+const sec4 = document.getElementById("sec4");
+const sec5 = document.getElementById("sec5");
+
+const sec6 = document.getElementById("sec6");
+const sec7 = document.getElementById("sec7");
+const sec8 = document.getElementById("sec8");
+const sec9 = document.getElementById("sec9");
+
+var a1 = 0;
+var a2 = 0;
+var a3 = 0;
+var a4 = 0;  
 
 function funcname(){
   var Name = document.getElementById("textf").value;
@@ -129,79 +179,185 @@ function funcname(){
 function funca1(){
   sec2.classList.add("hide")
   sec3.classList.remove("hide")
+  a1 += 1;
+  console.log(a1);
 }
 
 function funca2(){
   sec2.classList.add("hide")
   sec3.classList.remove("hide")
+  a2 += 1;
+  console.log(a2);
 }
 
 function funca3(){
   sec2.classList.add("hide")
   sec3.classList.remove("hide")
+  a3 += 1;
+  console.log(a3);
 }
 
 function funca4(){
   sec2.classList.add("hide")
   sec3.classList.remove("hide")
+  a4 += 1;
+  console.log(a4);
 }
 
 // <Question2------------------------->
   function funca5(){
   sec3.classList.add("hide")
   sec4.classList.remove("hide")
+  a1 += 1;
+  console.log(a1);
 }
 
 function funca6(){
   sec3.classList.add("hide")
   sec4.classList.remove("hide")
+  a2 += 1;
+  console.log(a2);
 }
 
 function funca7(){
   sec3.classList.add("hide")
   sec4.classList.remove("hide")
+  a3 += 1;
+  console.log(a3);
 }
 
 function funca8(){
   sec3.classList.add("hide")
   sec4.classList.remove("hide")
+  a4 += 1;
+  console.log(a4);
 }
 
 // <Question3------------------------->
   function funca9(){
   sec4.classList.add("hide")
   sec5.classList.remove("hide")
+  a1 += 1;
+  console.log(a1);
 }
 
 function funca10(){
   sec4.classList.add("hide")
   sec5.classList.remove("hide")
+  a2 += 1;
+  console.log(a2);
 }
 
 function funca11(){
   sec4.classList.add("hide")
   sec5.classList.remove("hide")
+  a3 += 1;
+  console.log(a3);
 }
 
 function funca12(){
   sec4.classList.add("hide")
   sec5.classList.remove("hide")
+  a4 += 1;
+  console.log(a4);
 }
 
 // <Question5------------------------->
-  function funca13(){
+function funca13(){
+  a1 += 1;
+  console.log(a1);
+  if(a1 > a2 && a1 > a3 && a1 > a4){
+    sec5.classList.add("hide")
+    sec6.classList.remove("hide")
+  }
+  else if(a2 > a1 && a2 > a3 && a2 > a4){
+    sec5.classList.add("hide")
+    sec7.classList.remove("hide")
+  }
+  else if(a3 > a1 && a3 > a2 && a3 > a4){
+    sec5.classList.add("hide")
+    sec8.classList.remove("hide")
+  }
+  else if(a4 > a1 && a4 > a2 && a4 > a3){
+    sec5.classList.add("hide")
+    sec9.classList.remove("hide")
+  }else{
+    sec5.classList.add("hide")
+    sec6.classList.remove("hide")
+  }
 
 }
 
 function funca14(){
-  
+  a2 += 1;
+  console.log(a2);
+  if(a1 > a2 && a1 > a3 && a1 > a4){
+    sec5.classList.add("hide")
+    sec6.classList.remove("hide")
+  }
+  else if(a2 > a1 && a2 > a3 && a2 > a4){
+    sec5.classList.add("hide")
+    sec7.classList.remove("hide")
+  }
+  else if(a3 > a1 && a3 > a2 && a3 > a4){
+    sec5.classList.add("hide")
+    sec8.classList.remove("hide")
+  }
+  else if(a4 > a1 && a4 > a2 && a4 > a3){
+    sec5.classList.add("hide")
+    sec9.classList.remove("hide")
+  }else{
+    sec5.classList.add("hide")
+    sec6.classList.remove("hide")
+  }
 }
 
 function funca15(){
- 
+  a3 += 1;
+  console.log(a3);
+  if(a1 > a2 && a1 > a3 && a1 > a4){
+    sec5.classList.add("hide")
+    sec6.classList.remove("hide")
+  }
+  else if(a2 > a1 && a2 > a3 && a2 > a4){
+    sec5.classList.add("hide")
+    sec7.classList.remove("hide")
+  }
+  else if(a3 > a1 && a3 > a2 && a3 > a4){
+    sec5.classList.add("hide")
+    sec8.classList.remove("hide")
+  }
+  else if(a4 > a1 && a4 > a2 && a4 > a3){
+    sec5.classList.add("hide")
+    sec9.classList.remove("hide")
+  }else{
+    sec5.classList.add("hide")
+    sec6.classList.remove("hide")
+  }
 }
 
 function funca16(){
+  a4 += 1;
+  console.log(a4);
+  if(a1 > a2 && a1 > a3 && a1 > a4){
+    sec5.classList.add("hide")
+    sec6.classList.remove("hide")
+  }
+  else if(a2 > a1 && a2 > a3 && a2 > a4){
+    sec5.classList.add("hide")
+    sec7.classList.remove("hide")
+  }
+  else if(a3 > a1 && a3 > a2 && a3 > a4){
+    sec5.classList.add("hide")
+    sec8.classList.remove("hide")
+  }
+  else if(a4 > a1 && a4 > a2 && a4 > a3){
+    sec5.classList.add("hide")
+    sec9.classList.remove("hide")
+  }else{
+    sec5.classList.add("hide")
+    sec6.classList.remove("hide")
+  }
   
 }
 
