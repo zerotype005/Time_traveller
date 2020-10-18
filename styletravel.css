@@ -104,17 +104,21 @@ h1 {
 
 .Egypt{
     background-color: #646464;
-    background-image: radial-gradient(circle,white, #969696, #646464);
+    background-image: radial-gradient(white, #969696, #646464);
 }
 
 .China{
     background-color: #9e6424;
+    background-image: radial-gradient(white, #aa8154, #9e6424);
 }
 
 .Greek{
     background-color: #ee5d00;
+    background-image: radial-gradient(white, #db8855, #ee5d00);
 }
 
 .Roman{
     background-color: #ffc600;
+    background-image: radial-gradient(white, #f5d669, #ffc600);
+
 }
