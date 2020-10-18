@@ -9,10 +9,7 @@ body{
         height: 90%;
     }
   }
-.navsel{
-   text-decoration: underline;
-   text-decoration-color: red;
-}
+
 body{
     background-color: gray;
     font-family: 'Varela Round', sans-serif;
@@ -41,5 +38,29 @@ body{
     background: black;
     position: relative;
     
-
 }
+.team-member {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.team-member img {
+    max-width: 150px;
+    margin-bottom: 1em;
+    
+}
+.img:hover{
+    border-radius: 1em;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+p{
+    text-align: 22px;
+}
+
+
