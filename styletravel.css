@@ -114,7 +114,26 @@ h1 {
 }
 
 .button{
-    display: inline;
+    padding: 15px 32px;
+    transition-duration: 0.4s;
+    text-align: center;
+    display: inline-block;
+}
+.button1:hover{
+    color: white;
+    background-color: #646464;
+}
+.button2:hover{
+    color: white;
+    background-color:#9e6424;
+}
+.button3:hover{
+    color: white;
+    background-color: #ee5d00;
+}
+.button4:hover{
+    color: white;
+    background-color: #ffc600;
 }
 
 .timeline{
