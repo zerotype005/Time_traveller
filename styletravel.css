@@ -7,7 +7,7 @@ body {
     font-family: 'Varela Round', sans-serif;
     margin: auto;
     height: 100vh;
-    background-color: gray;
+    background-color: #150704;
 }
 
 .navsel {
@@ -91,4 +91,30 @@ h1 {
     width: 240px;
     height: 150;
     border-radius: 20px;
+}
+
+.question{
+    margin: auto;
+    display: block;
+}
+
+.button{
+    display: inline;
+}
+
+.Egypt{
+    background-color: #646464;
+    background-image: radial-gradient(circle,white, #969696, #646464);
+}
+
+.China{
+    background-color: #9e6424;
+}
+
+.Greek{
+    background-color: #ee5d00;
+}
+
+.Roman{
+    background-color: #ffc600;
 }
