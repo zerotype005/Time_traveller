@@ -7,7 +7,7 @@ body {
     font-family: 'Varela Round', sans-serif;
     margin: auto;
     height: 100vh;
-    background-color: #150704;
+    background-color: #2b2b2b;
 }
 
 .navsel {
@@ -20,12 +20,21 @@ body {
     position: relative;
     text-align: center;
     font-size: 20px;
-    max-width: 600px;
-    margin: 50px auto 40px;
+    max-width: auto;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.photo {
+    border-radius: 15px;
 }
 
 .year {
-    background: gray;
     position: relative;
     padding-left: 10px;
     padding-right: 10px;
@@ -35,7 +44,7 @@ body {
 .line {
     height: 2px;
     width: 100%;
-    top: -10px;
+    top: -35px;
     border-radius: 3px;
     background: black;
     position: relative;
@@ -71,12 +80,10 @@ h1 {
 }
 
 .caption {
-    position: absolute;
-    left: 0;
-    top: 40%;
-    left: 40%;
-    right: 40%;
+    position: relative;
+    margin: auto;
     width: 20%;
+    top: 200px;
     text-align: center;
     color: #000;
 }
@@ -88,7 +95,6 @@ h1 {
     font-size: 25px;
     letter-spacing: 10px;
     font-size: 25pt;
-    width: 240px;
     height: 150;
     border-radius: 20px;
 }
@@ -96,29 +102,56 @@ h1 {
 .question{
     margin: auto;
     display: block;
+    position: absolute;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: #111;
+    border-radius: 20px;
+    width: 45%;
+    position: relative;
+    padding: 8px;
+    top: 220px;
 }
 
 .button{
     display: inline;
 }
 
+.timeline{
+    display: block;
+}
+
 .Egypt{
     background-color: #646464;
     background-image: radial-gradient(white, #969696, #646464);
+    display: block;
+    width: 80%;
+    margin: auto;
+    margin-top: 0%;
 }
 
 .China{
     background-color: #9e6424;
-    background-image: radial-gradient(white, #aa8154, #9e6424);
+    background-image: radial-gradient(#dddddd, #a07e59, #774918);
+    display: block;
 }
 
 .Greek{
     background-color: #ee5d00;
-    background-image: radial-gradient(white, #db8855, #ee5d00);
+    background-image: radial-gradient(#a18d80, #9e633e, #aa4201);
+    display: block;
 }
 
 .Roman{
     background-color: #ffc600;
-    background-image: radial-gradient(white, #f5d669, #ffc600);
+    background-image: radial-gradient(#d4d2cb, #b99f3e, #b89002);
+    display: block;
+}
 
+p {
+    font-size: 16pt;
+    padding-left: 230px;
+    padding-right: 230px;
+    padding-top: 10px;
+    text
 }
