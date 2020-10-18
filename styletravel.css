@@ -134,18 +134,24 @@ h1 {
     background-color: #9e6424;
     background-image: radial-gradient(#dddddd, #a07e59, #774918);
     display: block;
+    width: 80%;
+    margin: auto;
 }
 
 .Greek{
     background-color: #ee5d00;
     background-image: radial-gradient(#a18d80, #9e633e, #aa4201);
     display: block;
+    width: 80%;
+    margin: auto;
 }
 
 .Roman{
     background-color: #ffc600;
     background-image: radial-gradient(#d4d2cb, #b99f3e, #b89002);
     display: block;
+    width: 80%;
+    margin: auto;
 }
 
 p {
