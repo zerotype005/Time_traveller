@@ -84,6 +84,24 @@ h2, h3{
 .description.right {
     padding: 0 0 0 16em;
 }
+#bg{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+div#a1 {
+    position: relative;
+    top: 500px;
+    width: 1550px;
+    height: 100px;
+    background-color: black;
+    animation:example 4s linear infinite;
+  }
+  
+  @keyframes example {
+    0%   {background-color:black;}
+    50%  {background-color: gray;}
+    75%  {background-color: darkgray;}
+  }
 #bg1{
     background-image: url('img-innovation/bg1.jpg');
     background-repeat: no-repeat;
