@@ -85,17 +85,17 @@ h2, h3{
     padding: 0 0 0 16em;
 }
 #bg1{
-    background-image: url('img-innovation/bg1.jpg');
+    background-image: url('img-region/bg-1.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 #bg2{
-    background-image: url('img-innovation/bg2.jpg');
+    background-image: url('img-region/bg-2.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 #bg3{
-    background-image: url('img-innovation/bg3.jpg');
+    background-image: url('img-region/bg-3.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
