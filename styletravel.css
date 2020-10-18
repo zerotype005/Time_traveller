@@ -146,6 +146,7 @@ h1 {
     transition-duration: 0.4s;
     vertical-align: middle;
     display: inline-block;
+    font-size: 18pt;
 }
 
 .buttonA {
