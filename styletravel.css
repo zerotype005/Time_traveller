@@ -110,7 +110,7 @@ h1 {
     text-align: center;
 }
 
-.question{
+.question {
     margin: auto;
     display: block;
     position: absolute;
@@ -124,34 +124,71 @@ h1 {
     top: 220px;
 }
 
-.button{
+.buttonA, .buttonB, .buttonC, .buttonD {
     padding: 15px 32px;
     transition-duration: 0.4s;
-    text-align: center;
+    vertical-align: middle;
     display: inline-block;
 }
-.button1:hover{
-    color: white;
-    background-color: #646464;
+
+.buttonA {
+    background-image: url(Data/imagebutton/pyramid.png);
+    width: 150px;
+    height: 100px;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
-.button2:hover{
-    color: white;
-    background-color:#9e6424;
+
+.buttonB{
+    background-image: url(Data/imagebutton/thegreatwall3.png);
+    width: 150px;
+    height: 100px;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
-.button3:hover{
+
+.buttonC{
+    background-image: url(Data/imagebutton/patenon.png);
+    width: 150px;
+    height: 100px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.buttonD{
+    background-image: url(Data/imagebutton/helmet.png);
+    width: 150px;
+    height: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+}
+
+.button1:hover {
+    color: white;
+    background-color: #111111;
+}
+
+.button2:hover {
+    color: white;
+    background-color: #9e6424;
+}
+
+.button3:hover {
     color: white;
     background-color: #ee5d00;
 }
-.button4:hover{
+
+.button4:hover {
     color: white;
     background-color: #ffc600;
 }
 
-.timeline{
+.timeline {
     display: block;
 }
 
-.Egypt{
+.Egypt {
     background-color: #646464;
     background-image: radial-gradient(white, #969696, #646464);
     display: block;
@@ -160,7 +197,7 @@ h1 {
     margin-top: 0%;
 }
 
-.China{
+.China {
     background-color: #9e6424;
     background-image: radial-gradient(#dddddd, #a07e59, #774918);
     display: block;
@@ -168,7 +205,7 @@ h1 {
     margin: auto;
 }
 
-.Greek{
+.Greek {
     background-color: #ee5d00;
     background-image: radial-gradient(#a18d80, #9e633e, #aa4201);
     display: block;
@@ -176,7 +213,7 @@ h1 {
     margin: auto;
 }
 
-.Roman{
+.Roman {
     background-color: #ffc600;
     background-image: radial-gradient(#d4d2cb, #b99f3e, #b89002);
     display: block;
@@ -189,5 +226,24 @@ p {
     padding-left: 230px;
     padding-right: 230px;
     padding-top: 20px;
-    
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #646464;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+#myBtn:hover {
+    background-color: #555;
 }
