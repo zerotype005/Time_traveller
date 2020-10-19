@@ -1,71 +1,453 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <title>Timeline</title>
-    <link rel="stylesheet" href="styletravel.css">
-    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
-    <link rel="icon" href="..\image\icon.png" type="image/png" sizes="50x50">
-    <link href="demo.css" rel="stylesheet">
-    
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <title>Timeline</title>
+  <link rel="stylesheet" href="styletravel.css">
+  <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+  <link rel="icon" href="..\image\icon.png" type="image/png" sizes="50x50">
+  <link href="demo.css" rel="stylesheet">
+
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#"><img src="image/logo nav.png" class="d-inline-block align-top" style="width: 30%;"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarText">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a> 
-            </li>
-            <li class="nav-item  active">
-              <a class="nav-link" href="#"><u class="navsel">Timeline</u> <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="aboutus.html">About us</a>
-            </li>
-          </ul>
-        </div>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#"><img src="image/icon.png" class="d-inline-block align-top"
+          style="width: 100%;"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item  active">
+            <a class="nav-link" href="#">Timeline<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="aboutus.html">About us</a>
+          </li>
+        </ul>
+      </div>
+
+
     </nav>
 
-    <div class="ppap text-center">
-      <center><h1>Timeline</h1></center>
-      <img id="mountain" src="image/mountain.png" alt="">
-      <img id="person" src="image/person-mountain.png" alt="person">
+    
+
+
+
+  </header>
+
+  <button onclick="topFunction()" id="myBtn" title="Go to top"></button>
+
+  <div class="mountain">
+    <div class="caption">
+      <h1 class="border">Timeline</h1>
     </div>
-    
-    
-    <div class="col">
-        <div id=23>
-            <div class="box">
-                <span class="year">ค.ศ. 23</span>
-                <div class="line"></div>
-            </div>
-            <h3>พระเยซู คริสต์ ออกเผยแพร่ศาสนา</h3>
-            <img src="image/23.png" width="250px" height="250px">
-        </div>
-        <div id="400">
-            <div class="box">
-                <span class="year">ค.ศ. 400</span>
-                <div class="line"></div>
-            </div>
-            <h3>กำเนิดหมึกพิมพ์ และวิธีการพิมพ์บล็อกไม้</h3>
-            <img src="image/400.jpg" width="300px" height="200px">
-        </div>
-        <div id="476">
-            <div class="box">
-                <span class="year">ค.ศ. 476</span>
-                <div class="line"></div>
-            </div>
-            <h3>เข้าสู่ยุคกลาง หลังการล่มสลายของจักรวรรดิโรมัน</h3>
-            <img src="image/476.jpg" width="300px" height="200px">
-        </div>
+
+    <!-- ใช้ทำคำถามให้เลือกอารยธรรมที่ผู้ชมอยากดูแบบไทม์ไลน์ -->
+    <div class="question">
+      <h3>เลือกอารยธรรมก่อนคริสตกาลที่คุณต้องการชม</h3>
+      <div class="button">
+        <button class="buttonA button1" onclick="window.location.href='#Egypt'"><b>Egypt</b></button>
+        <button class="buttonB button2" onclick="window.location.href='#China'"><b>China</b></button>
+        <button class="buttonC button3" onclick="window.location.href='#Greek'"><b>Greek</b></button>
+        <button class="buttonD button4" onclick="window.location.href='#Roman'"><b>Roman</b></button>
+      </div>
     </div>
-    
+  </div>
+
+  <div class="scrolldown">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+  <!-- <div class="col">
+    <div id="1">
+      <div class="box">
+        <span class="year">ค.ศ. 23</span>
+        <div class="line"></div>
+        <h3>พระเยซู คริสต์ ออกเผยแพร่ศาสนา</h3>
+        <img src="image/23.png" width="250px" height="250px">
+      </div>
+    </div>
+  </div> -->
+
+
+  <!-- ใช้ใส่เนื้อหาไทม์ไลน์ -->
+  <div class="timeline">
+
+    <div class="Egypt" id="Egypt">
+      <h1 class="eraname">Egypt</h1>
+      <div id="1" class="card">
+        <div class="box">
+          <span class="year">
+            <h3><b>3,200 ปีก่อนคริสตกาล</b></h3>
+          </span>
+          <div class="line"></div>
+          <img class="photo" src="Data/Egypt/1.jpg" width="270px" height="200px">
+          <p>กำเนิดแห่งอาณาจักรอียิปต์โบราณ โดยราชาแมงป่อง (Scorpion king) ผู้ครองนครธีส (This)
+            ซึ่งตั้งอยู่บริเวณตอนกลางแห่งลุ่มน้ำไนล์</p>
+        </div>
+      </div>
+      <div id="2" class="card">
+        <div class="box">
+          <span class="year">
+            <h3><b>3,100 ปีก่อนคริสตกาล</b></h3>
+          </span>
+          <div class="line"></div>
+          <img class="photo" src="Data/Egypt/2.jpg" width="250px" height="250px">
+          <p>มีกษัตริย์ผู้นำของดินแดนอียิปต์บน นามว่า "เมเนส" (Menes) หรืออีกชื่อหนึ่งคือ &s "นาเมอร์" (Namer)
+            ได้ทำสงครามกับอียิปต์ล่าง
+            ซึ่งในท้ายที่สุดก็สามารถเอาชนะอียิปต์ล่างได้สำเร็จจนดินแดนอียิปต์ได้รวมกันเป็นปึกแผ่น</p>
+        </div>
+      </div>
+      <div id="3" class="card">
+        <div class="box">
+          <span class="year">
+            <h3><b>2,800 ปีก่อนคริสตกาล</b></h3>
+          </span>
+          <div class="line"></div>
+          <img class="photo" src="Data/Egypt/3.jpeg" width="350px" height="200px">
+          <p>กำเนิดกระดาษปาปิรัส เป็นกระดาษที่ทำมาจากต้นกก ที่มีความยืดหยุ่นและคงต่อสภาพอากาศอันแห้งแล้งของอียิปต์ได้ดี
+          </p>
+        </div>
+      </div>
+      <div id="4" class="card">
+        <div class="box">
+          <span class="year">
+            <h3><b>2,600 ปีก่อนคริสตกาล</b></h3>
+          </span>
+          <div class="line"></div>
+          <img class="photo" src="Data/Egypt/4.jpg" width="300px" height="200px">
+          <p>มหาพีระมิดแห่งกีซาถูกสร้างขึ้น เป็นหนึ่งเดียวในเจ็ดสิ่งมหัศจรรย์ของโลก ที่ยังคงเหลืออยู่ในปัจจุบัน </p>
+        </div>
+      </div>
+      <div id="5" class="card">
+        <div class="box">
+          <span class="year">
+            <h3><b>2,040 - 1,640 ปีก่อนคริสตกาล</b></h3>
+          </span>
+          <div class="line"></div>
+          <img class="photo" src="Data/Egypt/5.jpg" width="320px" height="200px">
+          <p>เป็นยุคทองของอียิปต์ด้านเศรษฐกิจ สถาปัตยกรรม การสร้างคลองติดต่อไปถึงทะเลแดง การสร้างเขื่อนกั้นน้ำ </p>
+        </div>
+      </div>
+      <div id="6" class="card">
+        <div class="box">
+          <span class="year">
+            <h3><b>1,640-1,550 ปีก่อนคริสตกาล</b></h3>
+          </span>
+          <div class="line"></div>
+          <img class="photo" src="Data/Egypt/6.jpg" width="300px" height="200px">
+          <p>ผู้ตั้งถิ่นฐานต่างชาติที่เรียกกันว่าชาวฮิกซอสยึดครองอียิปต์ล่างและจุดชนวนสงคราม
+            พวกเขาริเริ่มนำม้าและรถศึกม้ามาใช้ในการศึก </p>
+        </div>
+      </div>
+      <div id="7" class="card">
+        <div class="box">
+          <span class="year">
+            <h3><b>1,086-30 ปีก่อนคริสตกาล</b></h3>
+          </span>
+          <div class="line"></div>
+          <img class="photo" src="Data/Egypt/7.png" width="350px" height="200px">
+          <p>อวสานอียิปต์โบราณ ฟาโรห์และนักบวชแย่งชิงอำนาจควบคุมอียิปต์ในยุครอยต่อที่สามภายหลังราชอาณาจักรซึ่งอ่อนแอลง
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="China" id="China">
+      <h1 class="eraname">China</h1>
+      <div id="1" class="card">
+        <div class="box">
+          <span class="year">
+            <h3><b>2,737 ปีก่อนคริสตกาล</b></h3>
+          </span>
+          <div class="line"></div>
+          <img class="photo" src="Data/China/1.jpg" width="300px" height="200px">
+          <p>ชาเขียวได้ถูกค้นพบโดยจักรพรรดินามว่า เสินหนง ซึ่งเป็นบัณฑิตและนักสมุนไพร </p>
+        </div>
+      </div>
+      <div id="2" class="card">
+        <div class="box">
+          <span class="year">
+            <h3><b>2,100 – 1,600 ปีก่อนคริสตกาล</b></h3>
+          </span>
+          <div class="line"></div>
+          <img class="photo" src="Data/China/2.1.jpg" width="170px" height="250px">
+          <img class="photo" src="Data/China/2.jpg" width="350px" height="250px">
+          <p>กำเนิดราชวงศ์เซี่ย มีกษัตริย์ปกครองทั้งหมด 17 พระองค์ </p>
+        </div>
+      </div>
+      <div id="3" class="card">
+        <div class="box">
+          <span class="year">
+            <h3><b>1,600 – 1,028 ปีก่อนคริสตกาล</b></h3>
+          </span>
+          <div class="line"></div>
+          <img class="photo" src="Data/China/3.1.jpg" width="250px" height="200px">
+          <img class="photo" src="Data/China/3.jpg" width="350px" height="200px">
+          <p>กำเนิดราชวงศ์ซาง มีกษัตริย์ปกครองทั้งสิ้น 30 พระองค์ ยุคนี้การทำเครื่องสัมฤทธิ์มีความเจริญรุ่งเรืองที่สุด
+          </p>
+        </div>
+      </div>
+      <div id="4" class="card">
+        <div class="box">
+          <span class="year">
+            <h3><b>1,570 ปีก่อนคริสตกาล</b></h3>
+          </span>
+          <div class="line"></div>
+          <img class="photo" src="Data/China/4.jpg" width="350px" height="200px">
+          <p>ได้กำเนิด อารยธรรมจีน </p>
+        </div>
+      </div>
+      <div id="5" class="card">
+        <div class="box">
+          <span class="year">
+            <h3><b>500 ปีก่อนคริสตกาล</b></h3>
+          </span>
+          <div class="line"></div>
+          <img class="photo" src="Data/China/5.jpg" width="350px" height="200px">
+          <p>กำเนิดเหล็กหล่อ และธนูหน้าไม้ </p>
+        </div>
+      </div>
+      <div id="6" class="card">
+        <div class="box">
+          <span class="year">
+            <h3><b>214 ปีก่อนคริสตกาล</b></h3>
+          </span>
+          <div class="line"></div>
+          <img class="photo" src="Data/China/6.jpg" width="350px" height="200px">
+          <p>สร้างกำแพงเมืองจีนสำเร็จ </p>
+        </div>
+      </div>
+      <div id="7" class="card">
+        <div class="box">
+          <span class="year">
+            <h3><b>206 ปีก่อนคริสตกาล</b></h3>
+          </span>
+          <div class="line"></div>
+          <img class="photo" src="Data/China/7.jpg" width="350px" height="200px">
+          <p>ก่อตั้งราชวงศ์ฮั่น </p>
+        </div>
+      </div>
+      <div id="8" class="card">
+        <div class="box">
+          <span class="year">
+            <h3><b>140 ปีก่อนคริสตกาล</b></h3>
+          </span>
+          <div class="line"></div>
+          <img class="photo" src="Data/China/8.jpg" width="220px" height="200px">
+          <p>ลัทธิขงจื๊อแผ่คลุมไปทั่วราชอาณาจักรจีน </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- เนื้อหาอารยธรรมกรีก -->
+    <div class="Greek" id="Greek">
+      <h1 class="eraname">Greek</h1>
+      <div id="1" class="card">
+        <div class="box">
+          <span class="year">
+            <h3><b>2,000 ปีก่อนคริสตกาล</b></h3>
+          </span>
+          <div class="line"></div>
+          <img class="photo" src="Data/Greek/1.jpg" width="280px" height="200px">
+          <p>พวกอินโด-ยูโรเปียนกลุ่มหนึ่งที่อพยพมาจากทางตอนเหนือของประเทศกรีซ</p>
+        </div>
+      </div>
+      <div id="2" class="card">
+        <div class="box">
+          <span class="year">
+            <h3><b>1600 – 1100 ปีก่อนคริสตกาล</b></h3>
+          </span>
+          <div class="line"></div>
+          <img class="photo" src="Data/Greek/2.jpg" width="250px" height="200px">
+          <p>นครรัฐของพวกไมซีเนียนซึ่งยึดครองพื้นที่ส่วนใหญ่ และมีอำนาจสูงสุด</p>
+        </div>
+      </div>
+      <div id="3" class="card">
+        <div class="box">
+          <span class="year">
+            <h3><b>1100 ปีก่อนคริสตกาล</b></h3>
+          </span>
+          <div class="line"></div>
+          <img class="photo" src="Data/Greek/3.gif" width="250px" height="200px">
+          <p>พวกกรีกอีกกลุ่ม(ดอเรียน) ได้สร้างนครรัฐสปาร์ตา</p>
+        </div>
+      </div>
+      <div id="4" class="card">
+        <div class="box">
+          <span class="year">
+            <h3><b>750 ปีก่อนคริสตกาล</b></h3>
+          </span>
+          <div class="line"></div>
+          <img class="photo" src="Data/Greek/4.jpg" width="300px" height="200px">
+          <p>กำเนิดอารยธรรมกรีก</p>
+        </div>
+      </div>
+      <div id="5" class="card">
+        <div class="box">
+          <span class="year">
+            <h3><b>371 ปีก่อนคริสตกาล</b></h3>
+          </span>
+          <div class="line"></div>
+          <img class="photo" src="Data/Greek/5.jpg" width="250px" height="200px">
+          <p>นครรัฐกรีกอื่นๆ ก็พยายามรวมตัวกันโดยมีนครรัฐธีบส์(Thebes) เป็นผู้นำ</p>
+        </div>
+      </div>
+      <div id="6" class="card">
+        <div class="box">
+          <span class="year">
+            <h3><b>338 ปีก่อนคริสตกาล</b></h3>
+          </span>
+          <div class="line"></div>
+          <img class="photo" src="Data/Greek/6.jpg" width="250px" height="200px">
+          <p>กรีกถูกกษัตริย์ฟิลิปแห่งมาซิโดเนียซึ่งอยู่ในเขตเอเชียไมเนอร์รุกรานและครอบครอง</p>
+        </div>
+      </div>
+      <div id="7" class="card">
+        <div class="box">
+          <span class="year">
+            <h3><b>336 – 323 ปีก่อนคริสตกาล</b></h3>
+          </span>
+          <div class="line"></div>
+          <img class="photo" src="Data/Greek/7.jpg" width="300px" height="200px">
+          <p>พระเจ้าอเล็กซานเดอร์มหาราชได้ปกครองจักรวรรดิมาซิโดเนียและได้ครอบครองแหล่งอารยธรรมต่างๆ ของโลก</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="Roman" id="Roman">
+      <h1 class="eraname">Roman</h1>
+      <div id="1" class="card">
+        <div class="box">
+          <span class="year">
+            <h3><b>1000 ปีก่อนคริสตกาล</b></h3>
+          </span>
+          <div class="line"></div>
+          <img class="photo" src="Data/Roman/1.jpg" width="280px" height="200px">
+          <p>พวกอินโด-ยูโรเปียนเผ่าละติน (Latin) ซึ่งอพยพจากทางตอนเหนือมาตั้งถิ่นฐานในแหลมอิตาลี</p>
+        </div>
+      </div>
+      <div id="2" class="card">
+        <div class="box">
+          <span class="year">
+            <h3><b>753 ปีก่อนคริสตกาล</b></h3>
+          </span>
+          <div class="line"></div>
+          <img class="photo" src="Data/Roman/2.jpg" width="250px" height="200px">
+          <p>กรุงโรมถูกก่อตั้งขึ้น โดยพี่น้องฝาแฝดชื่อ รอมิวรุสและรีมัส ซึ่งเป็นบุตรของเทพเจ้ามาร์
+            ซึ่งเป็นเทพเจ้าแห่งสงคราม</p>
+        </div>
+      </div>
+      <div id="3" class="card">
+        <div class="box">
+          <span class="year">
+            <h3><b>509 ปีก่อนคริสตกาล</b></h3>
+          </span>
+          <div class="line"></div>
+          <img class="photo" src="Data/Roman/3.jpg" width="250px" height="300px">
+          <p>กษัตริย์ทาควิน ผู้เย่อหยิ่งถูกขับออกจากเมืองทำให้โรมกลายเป็นสาธารณรัฐ</p>
+        </div>
+      </div>
+      <div id="4" class="card">
+        <div class="box">
+          <span class="year">
+            <h3><b>400 ปีก่อนคริสตกาล</b></h3>
+          </span>
+          <div class="line"></div>
+          <img class="photo" src="Data/Roman/4.png" width="250px" height="200px">
+          <p>เข้าควบคุมอิตาลีและเมดิเตอร์เรเนียน</p>
+        </div>
+      </div>
+      <div id="5" class="card">
+        <div class="box">
+          <span class="year">
+            <h3><b>309 – 209 ปีก่อนคริสตกาล</b></h3>
+          </span>
+          <div class="line"></div>
+          <img class="photo" src="Data/Roman/5.jpeg" width="250px" height="200px">
+          <p>โรมันก็เริ่มพิชิตดินแดนอื่นๆ รวมทั้งสเปน</p>
+        </div>
+      </div>
+      <div id="6" class="card">
+        <div class="box">
+          <span class="year">
+            <h3><b>197 ปีก่อนคริสตกาล</b></h3>
+          </span>
+          <div class="line"></div>
+          <img class="photo" src="Data/Roman/6.jpeg" width="250px" height="200px">
+          <p>โรมันพิชิตกอล ตุรกี ซีเรีย อียิปต์ อิสราเอล และจอร์แดน</p>
+        </div>
+      </div>
+      <div id="7" class="card">
+        <div class="box">
+          <span class="year">
+            <h3><b>100 ปีก่อนคริสตกาล</b></h3>
+          </span>
+          <div class="line"></div>
+          <img class="photo" src="Data/Roman/7.jpg" width="250px" height="200px">
+          <p>โรมันได้รวบรวมดินแดนโดยรอบทะเลเมดิเตอร์เรเนียนไว้ในอำนาจ จูเลียส ซีซาร์
+            เป็นมนุษย์คนแรกที่ถือกำเนิดโดยวิธีผ่าตัดหน้าท้อง</p>
+        </div>
+      </div>
+      <div id="8" class="card">
+        <div class="box">
+          <span class="year">
+            <h3><b>46 ก่อนคริสตกาล</b></h3>
+          </span>
+          <div class="line"></div>
+          <img class="photo" src="Data/Roman/8.jpg" width="250px" height="300px">
+          <p>จูเลียส ซีซาร์ ได้เข้าควบคุมกรุงโรม ได้รับการสถาปนาเป็นผู้เผด็จการ และมีอำนาจสูงสุดเทียบเท่ากษัตริย์</p>
+        </div>
+      </div>
+      <div id="9" class="card">
+        <div class="box">
+          <span class="year">
+            <h3><b>44 ปีก่อนคริสตกาล</b></h3>
+          </span>
+          <div class="line"></div>
+          <img class="photo" src="Data/Roman/9.jpg" width="300px" height="200px">
+          <p>จูเลียส ซีซาร์เสียชีวิตลงโดยฝีมือของพวกลอบสังหารออคเตเวียน</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
 </body>
+<script>
+  //Get the button
+  var mybutton = document.getElementById("myBtn");
+
+  // When the user scrolls down 20px from the top of the document, show the button
+  window.onscroll = function () { scrollFunction() };
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+
+  // When the user clicks on the button, scroll to the top of the document
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+</script>
+
 </html>
