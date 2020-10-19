@@ -103,16 +103,17 @@ img#lg1 {
     animation:fade 4s linear infinite;
 }
 @keyframes fade {
-    0% {opacity: 0; transform: translate(0px, 0px) rotate(2deg); }
-    50% { opacity: 1;transform: translate(-5px, 0px) rotate(0deg); }
-    80% { opacity: 0.5;transform: translate(2px, 0px) rotate(2deg); }
+    0% {opacity: 0; transform: translate(0px, 0px) ; }
+    50% { opacity: 1;transform: translate(0px, 2px) ; }
+    80% { opacity: 0.5;transform: translate(0px, 1px) ; }
+    100% { opacity: 0.2;transform: translate(0px, 0px) ; }
   }
-  img#lg2 {
-    animation:fade 4s linear infinite;
+img#lg3 {
+    animation:fadeup 20s linear;
 }
-@keyframes fade {
-    0% {opacity: 0; transform: translate(0px, 0px) rotate(5deg); }
-    50% { opacity: 1;transform: translate(0px, -5px) rotate(-2deg); }
-    80% { opacity: 0.5;transform: translate(0px, 2px) rotate(3deg); }
+@keyframes fadeup {
+    0% {opacity: 0; transform: translate(0px, 0px) ; }
+    50% { opacity: 1;transform: translate(0px, -5px) ; }
+    80% { opacity: 0.5;transform: translate(0px, 2px) ; }
   }
   
