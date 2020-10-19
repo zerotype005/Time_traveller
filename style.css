@@ -78,7 +78,6 @@ section .container > *{
 .content{
     text-align: center;
     position: relative;
-  
     align-items: center;
     justify-content: center;
     margin-bottom: 10rem;
@@ -100,3 +99,31 @@ button:hover{
     position: relative;
     left: 10rem;
 }
+
+@media only screen and (max-width: 760px) {
+    body{
+        height: 100vh;
+        width: 100vw;
+    }
+    .logohead{
+        position: absolute;
+        top: 50%;
+        width: 60%;
+        left: -10%;
+    }
+    .content{
+        margin: 5rem;
+    }
+    .earth{
+        width: 70%;
+    }
+    section .container{
+        padding: 3rem;
+        display: grid;
+        grid-template-columns: repeat(1,2fr);
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 0px;
+    }
+
+  }
