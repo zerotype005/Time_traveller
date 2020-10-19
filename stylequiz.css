@@ -83,7 +83,12 @@ button{
     background-color:blue;
 }
 .btnwar{
-    height: 2rem;
-    width: 6rem;
+    height: 3rem;
+    width: 7rem;
     background-color: white;
+    transition: 1s;
+}
+.btnwar:hover{
+    width: 10rem;
+    background-color: orange;
 }
