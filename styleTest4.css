@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Varela Round', sans-serif;
+    margin: 0;
+    height: 100vh;
+    background-color:#303030;
+
+}
+header{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+}
+.bg-light{
+    background-color: transparent !important;
+}
+.container {
+    padding: 2em;
+    height: 100vh;
+    position: relative;
+}
+
+.sky, .ground, .man {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    top: 0;
+}
+.logohead{
+    position: absolute;
+    top: 40%;
+    margin-left: 30%;
+}
+section{
+    width: 100%;
+}
+section.container{
+    padding: 3rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    justify-content: center;
+}
+section img{
+    width: 100%;
+}
+p{
+    color: white;
+}
+h2, h3{
+    color: white;
+}
+
+.para {
+    position: relative;
+    height: 100%;
+}
+
+.bg-paralax {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+}
+
+.description {
+    position: absolute;
+    top: 25vh;
+}
+
+.description.left {
+    padding: 0 16em 0 0;
+}
+
+.description.right {
+    padding: 0 0 0 16em;
+}
+#bg1{
+    background-image: url('img-contry/bg1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#bg2{
+    background-image: url('img-contry/bg2.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#bg3{
+    background-image: url('img-contry/bg3.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+img#lg1 {
+    animation:fade 4s linear infinite;
+}
+@keyframes fade {
+    0% {opacity: 0; transform: translate(0px, 0px) ; }
+    50% { opacity: 1;transform: translate(0px, 2px) ; }
+    80% { opacity: 0.5;transform: translate(0px, 1px) ; }
+    100% { opacity: 0.2;transform: translate(0px, 0px) ; }
+  }
+img#lg3 {
+    animation:fadeup 20s linear;
+}
+@keyframes fadeup {
+    0% {opacity: 0; transform: translate(0px, 0px) ; }
+    50% { opacity: 1;transform: translate(0px, -5px) ; }
+    80% { opacity: 0.5;transform: translate(0px, 2px) ; }
+  }
+  
