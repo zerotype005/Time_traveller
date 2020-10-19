@@ -10,16 +10,6 @@ body{
     font-family: 'Kanit', sans-serif;;
     height: auto;
     width: auto;
-/*     background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: 50% 50%;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    content: "";
-    z-index: 0; */
     background: url(image/back1.jpg); 
     background-repeat: no-repeat;
     background-attachment: fixed;  
@@ -54,7 +44,7 @@ body{
 }
 .container{
     font-family: 'Kanit', sans-serif;
-    background-color :rgb(119, 109, 109);
+    background-color :#646464 ;
     border-radius: 15px;
     opacity: 0.8;
 }
