@@ -20,18 +20,22 @@ header{
     overflow: hidden;
 
 }
+
 .bg-light{
     background-color: transparent !important;
 }
+
 .sky, .ground, .man, .gif {
     position: absolute;
     z-index: -1;
     width: 100%;
     top: 0;
 }
+
 .gif{
     height: 100%;
 }
+
 .logohead{
     position: absolute;
     top: 40%;

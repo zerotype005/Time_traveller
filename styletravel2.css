@@ -1,0 +1,182 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    font-family: 'Varela Round', sans-serif;
+    margin: auto;
+    height: 100vh;
+    background-color: #2b2b2b;
+}
+
+.navsel {
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+.box {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+    max-width: auto;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.photo {
+    border-radius: 15px;
+}
+
+.year {
+    position: relative;
+    padding-left: 10px;
+    padding-right: 10px;
+    z-index: 3;
+}
+
+.line {
+    height: 2px;
+    width: 100%;
+    top: -35px;
+    border-radius: 3px;
+    background: black;
+    position: relative;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+#headtimeline {
+    background-color: aliceblue;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+.col {
+    margin: auto;
+}
+
+.mountain {
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("image/timelineimage2.jpg");
+    min-height: 90%;
+}
+
+.caption {
+    position: relative;
+    margin: auto;
+    width: 20%;
+    top: 200px;
+    text-align: center;
+    color: #000;
+}
+
+.caption .border {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+    font-size: 25pt;
+    height: 150;
+    border-radius: 20px;
+}
+
+.question{
+    margin: auto;
+    display: block;
+    position: absolute;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: #111;
+    border-radius: 20px;
+    width: 45%;
+    position: relative;
+    padding: 8px;
+    top: 220px;
+}
+
+.button{
+    padding: 15px 32px;
+    transition-duration: 0.4s;
+    text-align: center;
+    display: inline-block;
+}
+.button1:hover{
+    color: white;
+    background-color: #646464;
+}
+.button2:hover{
+    color: white;
+    background-color:#9e6424;
+}
+.button3:hover{
+    color: white;
+    background-color: #ee5d00;
+}
+.button4:hover{
+    color: white;
+    background-color: #ffc600;
+}
+
+.timeline{
+    display: block;
+}
+
+.Egypt{
+    background-color: #646464;
+    background-image: radial-gradient(white, #969696, #646464);
+    display: block;
+    width: 80%;
+    margin: auto;
+    margin-top: 0%;
+}
+
+.China{
+    background-color: #9e6424;
+    background-image: radial-gradient(#dddddd, #a07e59, #774918);
+    display: block;
+    width: 80%;
+    margin: auto;
+}
+
+.Greek{
+    background-color: #ee5d00;
+    background-image: radial-gradient(#a18d80, #9e633e, #aa4201);
+    display: block;
+    width: 80%;
+    margin: auto;
+}
+
+.Roman{
+    background-color: #ffc600;
+    background-image: radial-gradient(#d4d2cb, #b99f3e, #b89002);
+    display: block;
+    width: 80%;
+    margin: auto;
+}
+
+p {
+    font-size: 16pt;
+    padding-left: 230px;
+    padding-right: 230px;
+    padding-top: 20px;
+    
+}

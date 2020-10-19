@@ -7,9 +7,13 @@ body{
 .bg-light{
     background-color: transparent !important;
 }
-h2{
+H2{
     color: white;
 }
+h1{
+    color: gray;
+}
+
 section{
     display: grid;
     grid-template: 1;
@@ -28,12 +32,6 @@ section{
 .btn-block{
     padding: 5px;
 }
-.btnform{
-    border-radius: 5px;
-    border: none;
-    height: 2rem;
-    width: 4rem;
-}
 .btnform:hover{
     background-color: orange;
 }
@@ -47,4 +45,45 @@ section{
 }
 .hide{
     display: none;
+
+}
+button{
+    margin: 3;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+}
+.btngray{
+    background-color: white;
+    transition: 1s;
+}
+.btngray:hover{
+    background-color: gray;
+}
+.btnred{
+    background-color: white;
+    transition: 1s;
+}
+.btnred:hover{
+    background-color: red;
+}
+.btnyellow{
+    background-color: white;
+    transition: 1s;
+}
+.btnyellow:hover{
+    background-color: gold;
+}
+.btnblue{
+    background-color: white;
+    transition: 1s;
+}
+.btnblue:hover{
+    background-color:blue;
+}
+.btnwar{
+    height: 2rem;
+    width: 6rem;
+    background-color: white;
 }
