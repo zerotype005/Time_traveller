@@ -31,6 +31,8 @@ body{
 
 .container{
     font-family: 'Kanit', sans-serif;
+    background-color:red;
+    border-radius: 15px;
 }
 
 
