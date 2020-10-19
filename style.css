@@ -116,4 +116,25 @@ section .container > *{
     justify-content: center;
     margin-bottom: 10rem;
     
+<<<<<<< Updated upstream
 }
+=======
+}
+button{
+    margin: 3;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    width: 10rem;
+    transition: 1s;
+}
+button:hover{
+    background-color: orange;
+}
+.btn-group{
+    position: relative;
+    left: 10rem;
+}
+
+>>>>>>> Stashed changes
