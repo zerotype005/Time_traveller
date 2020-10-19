@@ -20,6 +20,7 @@ body{
 
 .navbar{
     background-color: transparent !important;
+    z-index: 1;
 }
 
 .team-member {
@@ -48,6 +49,11 @@ body{
     border-radius: 15px;
     opacity: 0.8;
 }
-
+.h3{
+    color: black;
+}
+.h5{
+    color: white;
+}
 
 
