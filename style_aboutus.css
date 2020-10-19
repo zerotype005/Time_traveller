@@ -10,7 +10,7 @@ body{
     font-family: 'Kanit', sans-serif;;
     height: auto;
     width: auto;
-    background: url(image/back11.jpg); 
+    background: url(image/back21.jpg); 
     background-repeat: no-repeat;
     background-attachment: fixed;  
     background-size: cover;
@@ -47,7 +47,7 @@ body{
     font-family: 'Kanit', sans-serif;
     
     border-radius: 15px;
-    opacity: 0.8;
+    
 }
 .h3{
     color: white;
