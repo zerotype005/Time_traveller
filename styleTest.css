@@ -1,0 +1,176 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Varela Round', sans-serif;
+    margin: 0;
+    height: 100vh;
+    background-color:#303030;
+
+}
+header{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+}
+.bg-light{
+    background-color: transparent !important;
+}
+.container {
+    padding: 2em;
+    height: 100vh;
+    position: relative;
+}
+
+.sky, .ground, .man {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    top: 0;
+}
+.logohead{
+    position: absolute;
+    top: 40%;
+    margin-left: 30%;
+}
+section{
+    width: 100%;
+}
+section.container{
+    padding: 3rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    justify-content: center;
+}
+section img{
+    width: 100%;
+}
+p{
+    color: white;
+}
+h2, h3{
+    color: white;
+}
+
+.para {
+    position: relative;
+    height: 100%;
+}
+
+.bg-paralax {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+}
+
+.description {
+    position: absolute;
+    top: 25vh;
+}
+
+.description.left {
+    padding: 0 14em 0 0;
+}
+
+.description.right {
+    padding: 0 0 0 16em;
+}
+#bg1{
+    background-image: url('img-war/bg1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#bg2{
+    background-image: url('img-war/bg2.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#bg3{
+    background-image: url('img-war/bg3.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#bg4{
+    background-image: url('img-war/bg4.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#lg1{
+    background-image: url('img-war/1-move.png');
+    background-repeat: no-repeat;
+}
+.bubble.b {
+    width: 130pt;
+    height: 130pt;
+    border-radius: 600pt
+  }
+img#lg2 {
+	font-size: 150px;
+	color: #e00;
+	animation: beat .5s infinite alternate;
+	transform-origin: center;
+}
+
+/* Heart beat animation */
+@keyframes beat{
+	to { transform: scale(1.5); }
+}
+img#lg3 {
+    animation: shake 3s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-2px, -2px) rotate(-1deg); }
+    20% { transform: translate(-4px, 0px) rotate(1deg); }
+    30% { transform: translate(4px, 4px) rotate(0deg); }
+    40% { transform: translate(2px, -2px) rotate(1deg); }
+    50% { transform: translate(-2px, 2px) rotate(-1deg); }
+    60% { transform: translate(-4px, 0px) rotate(0deg); }
+    70% { transform: translate(4px, 2px) rotate(-1deg); }
+    80% { transform: translate(-2px, -2px) rotate(1deg); }
+    90% { transform: translate(2px, 0px) rotate(0deg); }
+    100% { transform: translate(0px, -2px) rotate(-1deg); }
+  }
+  img#lg4{
+    animation: shake2 3s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes shake2 {
+    0% { transform: translate(0px, 0px) rotate(0deg); }
+    30% { transform: translate(-5px, 0px) rotate(0deg); }
+    45% { transform: translate(2px, 0px) rotate(1deg); }
+    60% { transform: translate(0px, 0px) rotate(0deg); }
+    75% { transform: translate(4px, 0px) rotate(1deg); }
+    90% { transform: translate(-10px, 0px) rotate(0deg); }
+  }
+  img#an1{
+    animation: bounceInDown 3s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes bounceInDown {
+    0% {
+       opacity: 0;
+       transform: translateY(-20px);
+    }
+    60% {
+       opacity: 1;
+       transform: translateY(6px);
+    }
+    80% {
+       transform: translateY(-10px);
+    }
+    100% {
+       transform: translateY(0);
+    }
+ }
