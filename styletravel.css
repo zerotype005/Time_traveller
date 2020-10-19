@@ -92,9 +92,10 @@ h1 {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url("image/timelineimage2.jpg");
+    background-size: 100% 95%;
+    background-image: url("Data/image/imagetimeline2.png");
     min-height: 90%;
+    margin: auto;
 }
 
 .eraname {
@@ -110,7 +111,7 @@ h1 {
     margin: auto;
     display: block;
     width: 25%;
-    top: 200px;
+    top: 150px;
     text-align: center;
     color: #000;
 }
@@ -140,7 +141,7 @@ h1 {
     width: 45%;
     position: relative;
     padding: 8px;
-    top: 220px;
+    top: 200px;
 }
 
 .buttonA, .buttonB, .buttonC, .buttonD {
@@ -231,17 +232,17 @@ h1 {
 }
 
 .scrolldown span:nth-child(1){
-    transform: translate(-15px,-15px);
+    transform: translate(-10px,-10px);
     animation-delay: -0.4s;
 }
 
 .scrolldown span:nth-child(2){
-    transform: translate(0px,0px);
+    transform: translate(5px,5px);
     animation-delay: -0.2s;
 }
 
 .scrolldown span:nth-child(3){
-    transform: translate(15px,15px);
+    transform: translate(20px,20px);
     animation-delay: 0s;
 }
 
