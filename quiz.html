@@ -101,7 +101,7 @@
           <H2>หมวดหมู่สำหรับการย้อนเวลาของคุณ</H2>
           <h1 style="color: grey;">สงคราม</h1>
           <div class="item-form">
-          <button class="btnwar" onclick=" ">ย้อนเวลา !</button>
+          <button class="btnwar" onclick="war()">ย้อนเวลา !</button>
         </div>
         </div>
       </section>
@@ -184,14 +184,18 @@ function funcname(){
 
 function funscene(){
   sectext.classList.remove("hide")
-  setTimeout(function(){funca1(); }, 5000);
+  setTimeout(function(){scene(); }, 5000);
   
+}
+function scene(){
+  sectext.classList.add("hide")
+  sec2.classList.remove("hide")
 }
 
 // <Question1------------------------->
 function funca1(){
-  sectext.classList.add("hide")
-  sec2.classList.remove("hide")
+  sec2.classList.add("hide")
+  sec3.classList.remove("hide")
   a1 += 1;
   console.log(a1);
 }
@@ -372,6 +376,10 @@ function funca16(){
     sec6.classList.remove("hide")
   }
   
+}
+
+function war(){
+  location.href = "war.html"
 }
 
 </script>
