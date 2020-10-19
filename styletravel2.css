@@ -32,6 +32,16 @@ body {
     background-color: transparent !important;
 }
 
+.card {
+    width: 60%;
+    margin: 10px;
+    background-color: white;
+    margin-top: 20px;
+    display: block;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px #111;
+}
+
 .box {
     width: 100%;
     position: relative;
@@ -42,15 +52,7 @@ body {
     padding-bottom: 20px;
 }
 
-.card {
-    width: 60%;
-    margin: 10px;
-    background-color: white;
-    margin-top: 20px;
-    display: block;
-    border-radius: 20px;
-    box-shadow: 10px 10px 5px #111;
-}
+
 
 .photo {
     border-radius: 15px;
@@ -317,9 +319,10 @@ h1 {
 
 p {
     font-size: 16pt;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 50px;
+    padding-right: 50px;
     padding-top: 20px;
+    text-align: justify;
 }
 
 #myBtn {
