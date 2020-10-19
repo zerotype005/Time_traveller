@@ -10,7 +10,7 @@ body{
     font-family: 'Kanit', sans-serif;;
     height: auto;
     width: auto;
-    background: url(image/back21.jpg); 
+    background: url(image/back13.jpg); 
     background-repeat: no-repeat;
     background-attachment: fixed;  
     background-size: cover;
@@ -53,6 +53,21 @@ body{
     color: white;
 }
 .h5{
+    color: white;
+}
+.black{
+    position: absolute;
+    bottom: 100%;
+    height: 150%;
+    width: 100%;
+    z-index: 20;
+    background: linear-gradient(to top ,black,transparent);
+
+}
+.page-footer{
+    background-color: black;
+}
+.p{
     color: white;
 }
 
