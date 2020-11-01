@@ -61,10 +61,12 @@ function funca2(){
 // <คุณสนใจอะไรมากที่สุด ?------------------------->
 function funca3(){
   sec3.classList.add("hide")
+  sec10.classList.remove("hide")
 }
 
 function funca4(){
   sec3.classList.add("hide")
+  sec10.classList.remove("hide")
 
 }
 
@@ -89,35 +91,42 @@ function funca7(){
 // <เลือกสังคมที่อยากรู้------------------------->
 function funca8(){
   sec5.classList.add("hide")
+  sec11.classList.remove("hide")
 }
 
   function funca9(){
   sec5.classList.add("hide")
+  sec16.classList.remove("hide")
 }
 
 function funca10(){
   sec5.classList.add("hide")
+  sec15.classList.remove("hide")
 }
 
 // <ศิลปะที่คุณสนใจ------------------------->
 
 function funca11(){
   sec6.classList.add("hide")
+  sec12.classList.remove("hide")
  
 }
 
 function funca12(){
   sec6.classList.add("hide")
+  sec13.classList.remove("hide")
  
 }
 
 function funca13(){
     sec6.classList.add("hide")
+    sec14.classList.remove("hide")
     
 }
 
 function funca14(){
     sec6.classList.add("hide")
+    sec12.classList.remove("hide")
      
 }
 
@@ -136,29 +145,32 @@ function funca16(){
 // <คุณชอบประเทศอะไร------------------------->
 function funca17(){
     sec8.classList.add("hide")
+    sec14.classList.remove("hide")
+
  
   
 }
 function funca18(){
-  
     sec8.classList.add("hide")
+    sec16.classList.remove("hide")
 }
 
 // <เลือกเหตุการณ์ที่คุณกำลังสนใจ------------------------->
 function funca19(){
     sec9.classList.add("hide")
+    sec13.classList.remove("hide")
    
   
 }
 function funca20(){
     sec9.classList.add("hide")
+    sec11.classList.remove("hide")
  
   
 }
 function funca21(){
     sec9.classList.add("hide")
-
-  
+    sec15.classList.remove("hide")
 }
 
 
