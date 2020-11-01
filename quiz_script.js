@@ -177,16 +177,26 @@ function funca21(){
 
 
 
-function war(){
-  location.href = "war.html"
+function an(){
+  location.href = "Ancient.html"
 }
 
-function contry(){
-  location.href = "contry.html"
+function med(){
+  location.href = "Medieval.html"
 }
-function region(){
-  location.href = "region.html"
+function re(){
+  location.href = "Renaissance.html"
 }
-function innovation(){
-  location.href = "innovation.html"
+function ba(){
+  location.href = "Baroque.html"
 }
+function roco(){
+    location.href = "Rococo.html"
+  }
+  function ro(){
+    location.href = "Romanticism.html"
+  }
+  function real(){
+    location.href = "Realism.html"
+  }
+    
