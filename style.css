@@ -87,13 +87,17 @@ button{
     margin: 3;
     text-align: center;
     padding: 10px 20px;
-    border-radius: 10px;
+    border-radius: 50px;
     border: none;
     width: 10rem;
-    transition: 1s;
+    transition: 0.5s;
+    background-color: #c74642;
+    color: white;
 }
 button:hover{
-    background-color: orange;
+    background-color: gray;
+    transform: translateY(10px);
+    width: 11rem;
 }
 .btn-group{
     position: relative;
@@ -127,3 +131,6 @@ button:hover{
     }
 
   }
+
+
+

@@ -22,8 +22,6 @@ section{
     text-align: center;
     width: 100%;
     height: 90%;
-    
- 
 }
 .item-form{
     padding: 3rem;
@@ -33,7 +31,8 @@ section{
     padding: 5px;
 }
 .btnform:hover{
-    background-color: orange;
+    background-color:gray;
+    transform: translateY(10px);
 }
 .textf1{
     border-radius: 5px;
@@ -51,8 +50,9 @@ button{
     margin: 3;
     text-align: center;
     padding: 10px 20px;
-    border-radius: 10px;
+    border-radius: 50px;
     border: none;
+    transition: 0.5s;
 }
 .btngray{
     background-color: white;
@@ -65,23 +65,7 @@ button{
     background-color: white;
     transition: 1s;
 }
-.btnred:hover{
-    background-color: red;
-}
-.btnyellow{
-    background-color: white;
-    transition: 1s;
-}
-.btnyellow:hover{
-    background-color: gold;
-}
-.btnblue{
-    background-color: white;
-    transition: 1s;
-}
-.btnblue:hover{
-    background-color:blue;
-}
+
 .btnwar{
     height: 3rem;
     width: 7rem;
