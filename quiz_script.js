@@ -51,133 +51,113 @@ function scene(){
 function funca1(){
   sec2.classList.add("hide")
   sec3.classList.remove("hide")
-
-  console.log(a1);
 }
 
 function funca2(){
   sec2.classList.add("hide")
-  sec3.classList.remove("hide")
-
-  console.log(a2);
+  sec4.classList.remove("hide")
 }
 
 // <คุณสนใจอะไรมากที่สุด ?------------------------->
 function funca3(){
-  sec2.classList.add("hide")
-  sec3.classList.remove("hide")
-
-  console.log(a3);
+  sec3.classList.add("hide")
 }
 
 function funca4(){
-  sec2.classList.add("hide")
-  sec3.classList.remove("hide")
+  sec3.classList.add("hide")
 
-  console.log(a4);
 }
 
 // <คุณสนใจในด้านใด ?------------------------->
   function funca5(){
-  sec3.classList.add("hide")
-  sec4.classList.remove("hide")
- 
-  console.log(a1);
+  sec4.classList.add("hide")
+  sec5.classList.remove("hide")
+
 }
 
 function funca6(){
-  sec3.classList.add("hide")
-  sec4.classList.remove("hide")
+  sec4.classList.add("hide")
+  sec6.classList.remove("hide")
 
-  console.log(a2);
 }
 
 function funca7(){
-  sec3.classList.add("hide")
-  sec4.classList.remove("hide")
- 
-  console.log(a3);
+  sec4.classList.add("hide")
+  sec7.classList.remove("hide")
 }
 
 // <เลือกสังคมที่อยากรู้------------------------->
-
 function funca8(){
-  sec3.classList.add("hide")
-  sec4.classList.remove("hide")
-
-  console.log(a4);
+  sec5.classList.add("hide")
 }
 
   function funca9(){
-  sec4.classList.add("hide")
-  sec5.classList.remove("hide")
-
-  console.log(a1);
+  sec5.classList.add("hide")
 }
 
 function funca10(){
-  sec4.classList.add("hide")
-  sec5.classList.remove("hide")
-
-  console.log(a2);
+  sec5.classList.add("hide")
 }
 
 // <ศิลปะที่คุณสนใจ------------------------->
 
 function funca11(){
-  sec4.classList.add("hide")
-  sec5.classList.remove("hide")
-
-  console.log(a3);
+  sec6.classList.add("hide")
+ 
 }
 
 function funca12(){
-  sec4.classList.add("hide")
-  sec5.classList.remove("hide")
-
-  console.log(a4);
+  sec6.classList.add("hide")
+ 
 }
 
 function funca13(){
-  
+    sec6.classList.add("hide")
+    
 }
 
 function funca14(){
-  
+    sec6.classList.add("hide")
+     
 }
 
 // <เลือกสถานะเศรษฐกิจที่สนใจ------------------------->
 
 function funca15(){
-  
+    sec7.classList.add("hide")
+    sec8.classList.remove("hide")
 }
 
 function funca16(){
-  
-  
+    sec7.classList.add("hide")
+    sec9.classList.remove("hide")
 }
 
 // <คุณชอบประเทศอะไร------------------------->
 function funca17(){
-  
+    sec8.classList.add("hide")
+ 
   
 }
 function funca18(){
   
-  
+    sec8.classList.add("hide")
 }
 
 // <เลือกเหตุการณ์ที่คุณกำลังสนใจ------------------------->
 function funca19(){
-  
+    sec9.classList.add("hide")
+   
   
 }
 function funca20(){
-  
+    sec9.classList.add("hide")
+ 
   
 }
 function funca21(){
-  
+    sec9.classList.add("hide")
+
   
 }
 
