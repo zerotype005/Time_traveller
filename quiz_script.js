@@ -99,7 +99,7 @@ function funca7(){
   console.log(a3);
 }
 
-// <คุณสนใจในด้านใด ?------------------------->
+// <เลือกสังคมที่อยากรู้------------------------->
 
 function funca8(){
   sec3.classList.add("hide")
@@ -122,7 +122,7 @@ function funca10(){
   console.log(a2);
 }
 
-// <คุณสนใจในด้านใด ?------------------------->
+// <ศิลปะที่คุณสนใจ------------------------->
 
 function funca11(){
   sec4.classList.add("hide")
@@ -146,6 +146,8 @@ function funca14(){
   
 }
 
+// <เลือกสถานะเศรษฐกิจที่สนใจ------------------------->
+
 function funca15(){
   
 }
@@ -154,6 +156,8 @@ function funca16(){
   
   
 }
+
+// <คุณชอบประเทศอะไร------------------------->
 function funca17(){
   
   
@@ -162,6 +166,8 @@ function funca18(){
   
   
 }
+
+// <เลือกเหตุการณ์ที่คุณกำลังสนใจ------------------------->
 function funca19(){
   
   
@@ -174,6 +180,10 @@ function funca21(){
   
   
 }
+
+
+
+
 
 function war(){
   location.href = "war.html"
