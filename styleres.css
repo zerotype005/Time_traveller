@@ -51,10 +51,13 @@ section{
     align-items: center;
     justify-content: center;
     scroll-snap-align: start;
+    align-items: center;
+       
 }
 .imghead{
     border-radius: 30px;
     width: 50%;
+    margin: 5rem;
     
 }
 img{
@@ -116,3 +119,6 @@ img{
         ::-webkit-scrollbar {
           display:none;
         }
+.imgslide{
+    height: 100%;
+}
