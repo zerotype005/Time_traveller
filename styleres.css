@@ -1,6 +1,6 @@
 *{
     box-sizing: border-box;
-    padding: 1rem;
+    margin: 3rem;
     
 }
 body{
@@ -13,6 +13,10 @@ h1{
     margin: 0;
 }
 h2{
+    color: white;
+    font-size: 5vw;
+}
+h3{
     color: white;
     font-size: 2vw;
 }
@@ -33,11 +37,25 @@ content{
     text-decoration: underline;
 }
 section{
+    margin-top: 0;
     display: grid;
     grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    justify-content: center;
 }
 .imghead{
     border-radius: 30px;
     width: 50%;
     
+}
+.line{
+    position: relative;
+    width: 35%;
+    height: 5px;
+    border-radius: 50px;
+    background-color: white;
+}
+.timeline{
+    position: relative;
+    top: -5%;
 }
