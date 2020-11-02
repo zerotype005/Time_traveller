@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    padding: 1rem;
+    
+}
+body{
+    background-color: black;
+    font-family: 'Kanit', sans-serif;
+}
+h1{
+    color: white;
+    font-size: 10vw;
+    margin: 0;
+}
+h2{
+    color: white;
+    font-size: 2vw;
+}
+p{
+    color: white;
+}
+content{
+    position: relative;
+    width: 100%;
+}
+.tophead{
+    position: absolute;
+    top: 5%;
+    left: 7%;
+    padding: 0;
+}
+.head{
+    text-decoration: underline;
+}
+section{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.imghead{
+    border-radius: 30px;
+    width: 50%;
+    
+}
