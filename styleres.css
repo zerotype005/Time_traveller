@@ -45,7 +45,7 @@ content{
     text-decoration: underline;
 }
 section{
-    margin-top: 0;
+    margin: 5rem;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     align-items: center;
@@ -90,23 +90,16 @@ img{
     width: 400vw;
   }
   .one {
-    background: #efdefe;
+    background: black;
   }
-  .two {
-    background: #a3f3d3;
-  }
-  .three {
-    background: #0bbaa0;
-  }
-  .four {
-    background: #00dfdf;
-  }
+
 
   .wrapper {
       transform: rotate(90deg) translateY(-100vh);
       transform-origin: top left;
     }
     .outer-wrapper {
+        margin: 0;
       width: 100vh;
       height: 100vw;
       transform: rotate(-90deg) translateX(-100vh);
