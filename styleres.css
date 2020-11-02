@@ -57,6 +57,9 @@ section{
     width: 50%;
     
 }
+img{
+    margin: 0;
+}
 .line{
     position: relative;
     width: 35%;
