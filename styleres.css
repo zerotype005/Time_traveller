@@ -90,7 +90,7 @@ img{
   .wrapper {
     display: flex;
     flex-direction: row;
-    width: 200vw;
+    width: 250vw;
   }
   .one {
     background: black;
@@ -121,4 +121,19 @@ img{
         }
 .imgslide{
     height: 100%;
+}
+button{
+    margin: 3;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: none;
+    transition: 0.5s;
+    width: 13rem;
+    background-color: #c74642;
+    color: white;
+}
+.but{
+    position: relative;
+    left: 10vw;
 }
