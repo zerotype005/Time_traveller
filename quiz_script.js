@@ -199,4 +199,8 @@ function roco(){
   function real(){
     location.href = "Realism.html"
   }
+
+function back(){
+  location.href = "quiz.html"
+}
     
