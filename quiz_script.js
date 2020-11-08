@@ -174,6 +174,36 @@ function funca21(){
 }
 
 
+function b1(){
+  sec3.classList.add("hide")
+  sec2.classList.remove("hide")
+}
+function b2(){
+  sec4.classList.add("hide")
+  sec2.classList.remove("hide")
+}
+function b3(){
+  sec3.classList.add("hide")
+  sec2.classList.remove("hide")
+}
+function b4(){
+  sec3.classList.add("hide")
+  sec2.classList.remove("hide")
+}
+function b5(){
+  sec3.classList.add("hide")
+  sec2.classList.remove("hide")
+}
+function b6(){
+  sec3.classList.add("hide")
+  sec2.classList.remove("hide")
+}
+function b7(){
+  sec3.classList.add("hide")
+  sec2.classList.remove("hide")
+}
+
+
 
 
 
