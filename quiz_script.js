@@ -183,24 +183,24 @@ function b2(){
   sec2.classList.remove("hide")
 }
 function b3(){
-  sec3.classList.add("hide")
-  sec2.classList.remove("hide")
+  sec5.classList.add("hide")
+  sec4.classList.remove("hide")
 }
 function b4(){
-  sec3.classList.add("hide")
-  sec2.classList.remove("hide")
+  sec6.classList.add("hide")
+  sec4.classList.remove("hide")
 }
 function b5(){
-  sec3.classList.add("hide")
-  sec2.classList.remove("hide")
+  sec7.classList.add("hide")
+  sec4.classList.remove("hide")
 }
 function b6(){
-  sec3.classList.add("hide")
-  sec2.classList.remove("hide")
+  sec8.classList.add("hide")
+  sec7.classList.remove("hide")
 }
 function b7(){
-  sec3.classList.add("hide")
-  sec2.classList.remove("hide")
+  sec9.classList.add("hide")
+  sec7.classList.remove("hide")
 }
 
 
