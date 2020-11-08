@@ -140,3 +140,8 @@ button:hover {
     position: relative;
     left: 10vw;
 }
+.hi{
+    border-radius: 30px;
+    width: 40vw;
+    margin-top: 2rem;
+}
