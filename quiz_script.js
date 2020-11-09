@@ -215,6 +215,10 @@ function b7(){
   sec9.classList.add("hide")
   sec7.classList.remove("hide")
 }
+function b8(){
+  sec1_2.classList.add("hide")
+  sec1_1.classList.remove("hide")
+}
 
 
 
