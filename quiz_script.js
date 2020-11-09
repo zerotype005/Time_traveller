@@ -13,6 +13,8 @@ console.log("link!!!")
 
 const sec1 = document.getElementById("sec1");
 const sectext = document.getElementById("sec1-1");
+const sec1_1 = document.getElementById("sec1-2");
+const sec1_2 = document.getElementById("sec1-3");
 const sec2 = document.getElementById("sec2");
 const sec3 = document.getElementById("sec3");
 const sec4 = document.getElementById("sec4");
@@ -34,8 +36,19 @@ function funcname(){
   var Name = document.getElementById("textf").value;
   console.log(Name);
   sec1.classList.add("hide")
+  sec1_1.classList.remove("hide")
+}
+
+// คุณมีช่วงเวลาในใจแล้วหรือไม่
+function funcyes(){
+  sec1_1.classList.add("hide")
+  sec1_2.classList.remove("hide")
+}
+function funcno(){
+  sec1_1.classList.add("hide")
   funscene();
 }
+    
 
 function funscene(){
   sectext.classList.remove("hide")
@@ -233,4 +246,5 @@ function roco(){
 function back(){
   location.href = "quiz.html"
 }
+
     
